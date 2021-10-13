@@ -79,7 +79,7 @@ public class Main {
         string = "Hello.ma.dear.guys";
         System.out.println(string.replace("."," "));// replace для замены символов в строке другой строкой : Hello ma dear guys
         System.out.println(string.replaceAll("\\w+","wo"));// replaceAll для замены символов в строке другой строкой с помозью рег. выражений
-        // : wo.wo.wo.wo
+        // wo.wo.wo.wo
         System.out.println(string.replaceFirst("\\w+","-"));// replaceFirst для замены символов в строке другой строкой
         // с помозью первого вхождения рег. выражений
         // -.ma.dear.guys
